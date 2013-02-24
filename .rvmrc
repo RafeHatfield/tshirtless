@@ -4,7 +4,7 @@
 # development environment upon cd'ing into the directory.
 # For more info, see: http://beginrescueend.com/
 
-ruby_gemset_name="ruby-1.9.3-p194@pacermate"
+ruby_gemset_name="ruby-1.9.3-p194@tshirtless"
 ruby_name="ruby-1.9.3-p194"
 
 echo "RVM: Using ${ruby_gemset_name} for this project."
