@@ -7,28 +7,13 @@
           %span.icon-bar
           %span.icon-bar
         = link_to "Tshirtless.me", root_path, :class => "brand"
-        / %a.brand{:href => "."} Tshirtless.me
+        / , :style => "font-family: tangerine; font-size: 36px; color: white"
         .nav-collapse
           %ul.nav
             %li.active
               = link_to "About", about_path
-              / %a{:href => "."} Portfolio
             %li
               = link_to "Contact", contact_path
-              / %a{:href => "about.html"} About
-            / %li
-            /   %a{:href => "contact.html"} Contact
-            / %li.dropdown
-            /   %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-            /     Dropdown
-            /     %b.caret
-            /   %ul.dropdown-menu
-            /     %li
-            /       %a{:href => "#"} Something here
-            /     %li.divider
-            /     %li.nav-header Nav header
-            /     %li
-            /       %a{:href => "#"} Something else here
           %ul.nav.pull-right
             %li
               %a{:href => "mailto:#"}
