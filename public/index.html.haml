@@ -1,0 +1,175 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title Bootstrap Folio
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %meta{:content => "", :name => "description"}/
+    %meta{:content => "", :name => "author"}/
+    / Le styles
+    %link{:href => "css/custom.css", :rel => "stylesheet"}/
+    %link{:href => "css/bootstrap-app.css", :rel => "stylesheet"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Droid+Sans:400,700", :rel => "stylesheet"}/
+    / Le HTML5 shim, for IE6-8 support of HTML5 elements
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    / Le fav and touch icons
+    %link{:href => "favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "apple-touch-icon-144-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "144x144"}/
+    %link{:href => "apple-touch-icon-114-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "114x114"}/
+    %link{:href => "apple-touch-icon-72-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "72x72"}/
+    %link{:href => "apple-touch-icon-57-precomposed.png", :rel => "apple-touch-icon-precomposed"}/
+  %body
+    .header
+      .header-inner
+        .container
+          .navbar
+            %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            %a.brand{:href => "."} Bootstrap Folio
+            .nav-collapse
+              %ul.nav
+                %li.active
+                  %a{:href => "."} Portfolio
+                %li
+                  %a{:href => "about.html"} About
+                %li
+                  %a{:href => "contact.html"} Contact
+                %li.dropdown
+                  %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                    Dropdown
+                    %b.caret
+                  %ul.dropdown-menu
+                    %li
+                      %a{:href => "#"} Something here
+                    %li.divider
+                    %li.nav-header Nav header
+                    %li
+                      %a{:href => "#"} Something else here
+              %ul.nav.pull-right
+                %li
+                  %a{:href => "mailto:#"}
+                    %i.icon-envelope
+                    Me
+            / /.nav-collapse
+    / /header
+    .topic
+      .inner-topic
+        .container
+          .row
+            .span12
+              %h1 A beautiful, unique, hand-crafted bootstrap theme suitable for showcasing your personal or business portfolio
+    / /topic
+    .intro
+      .inner-intro
+        .container
+          .row
+            .span12
+              %h2 Bootstrap Folio is available for only $10! That's right, I'm practically giving it away!
+              %p Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+    / /intro
+    .wrapper
+      .inner-wrapper
+        .container
+          .row
+            .span12
+              %h2.nuck Marvelous tasks I've recently accomplished
+          .row
+            .span4
+              .wii
+                .browser-bar
+                %a{:href => "work.html"}
+                  %img.wii-thumb{:alt => "description", :src => "img/img.png"}/
+                .wii-desc
+                  %h4 Description/ Caption
+                  %hr/
+                  .wii-meta
+                    %p.pull-left Web Design
+                    %p.pull-right June 27, 2012
+            .span4
+              .wii
+                .browser-bar
+                %a{:href => "work.html"}
+                  %img.wii-thumb{:alt => "description", :src => "img/img2.png"}/
+                .wii-desc
+                  %h4 Description/ Caption
+                  %hr/
+                  .wii-meta
+                    %p.pull-left SEO Marketing
+                    %p.pull-right June 28, 2012
+            .span4
+              .wii
+                .browser-bar
+                %a{:href => "work.html"}
+                  %img.wii-thumb{:alt => "description", :src => "img/img3.png"}/
+                .wii-desc
+                  %h4 Description/ Caption
+                  %hr/
+                  .wii-meta
+                    %p.pull-left Copy Writing
+                    %p.pull-right June 29, 2012
+          .row
+            .span4
+              .wii
+                .browser-bar
+                %a{:href => "work.html"}
+                  %img.wii-thumb{:alt => "description", :src => "img/img3.png"}/
+                .wii-desc
+                  %h4 Description/ Caption
+                  %hr/
+                  .wii-meta
+                    %p.pull-left Plugin Development
+                    %p.pull-right June 29, 2012
+            .span4
+              .wii
+                .browser-bar
+                %a{:href => "work.html"}
+                  %img.wii-thumb{:alt => "description", :src => "img/img.png"}/
+                .wii-desc
+                  %h4 Description/ Caption
+                  %hr/
+                  .wii-meta
+                    %p.pull-left Icon Design
+                    %p.pull-right July 01, 2012
+            .span4
+              .wii
+                .browser-bar
+                %a{:href => "work.html"}
+                  %img.wii-thumb{:alt => "description", :src => "img/img2.png"}/
+                .wii-desc
+                  %h4 Description/ Caption
+                  %hr/
+                  .wii-meta
+                    %p.pull-left Logo Design
+                    %p.pull-right July 01, 2012
+    / /wrapper
+    .footer
+      .inner-footer
+        .container
+          .row
+            .span12
+              .upper-f
+                %h3
+                  %a.f-logo{:href => "."} Bootstrap Folio
+                .social
+                  %a.linkedin{:href => "#"} LinkedIn
+                  %a.youtube{:href => "#"} YouTube
+                  %a.facebook{:href => "#"} Facebook
+                  %a.twitter{:href => "#"} Twitter
+            .span12
+              .middle-f
+                %p Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+                %p
+                  \&copy; 2012 Your Name. All rights reserved. |
+                  %a.flink{:href => "."} Home
+                  %a.flink{:href => "about.html"} About
+                  %a.flink{:href => "contact.html"} Contact
+    / /footer
+    /
+      Le javascript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
+    %script{:src => "js/jquery.js"}
+    %script{:src => "js/bootstrap.min.js"}
