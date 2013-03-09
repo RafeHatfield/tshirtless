@@ -6,7 +6,7 @@ gem 'jquery-rails'
 gem "haml-rails", ">= 0.4"
 gem "simple_form", ">= 2.0.4"
 gem "figaro", ">= 0.5.3"
-gem "tilt", "1.3.5"
+gem "tilt", "1.3.4"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
