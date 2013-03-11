@@ -50,8 +50,16 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.1)
+    columnize (0.3.6)
     database_cleaner (0.9.1)
     debug_inspector (0.0.2)
+    debugger (1.4.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.2.0)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.2.0)
     diff-lcs (1.2.1)
     email_spec (1.4.0)
       launchy (~> 2.1)
@@ -102,6 +110,7 @@ GEM
     net-ssh (2.6.6)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
+    newrelic_rpm (3.5.8.72)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -177,12 +186,14 @@ DEPENDENCIES
   capistrano
   coffee-rails (~> 3.2.1)
   database_cleaner (>= 0.9.1)
+  debugger
   email_spec (>= 1.4.0)
   factory_girl_rails (>= 4.2.0)
   figaro (>= 0.5.3)
   haml-rails (>= 0.4)
   html2haml (>= 1.0.1)
   jquery-rails
+  newrelic_rpm
   rails (= 3.2.12)
   rspec-rails (>= 2.12.2)
   rvm-capistrano
