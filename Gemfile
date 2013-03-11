@@ -8,6 +8,8 @@ gem "simple_form", ">= 2.0.4"
 gem "figaro", ">= 0.5.3"
 gem "tilt", "1.3.4"
 
+gem 'newrelic_rpm'
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -22,6 +24,7 @@ end
 group :development do
   gem "html2haml", ">= 1.0.1"
   gem "better_errors", ">= 0.6.0"
+  gem "debugger"
 end
 
 group :test do
