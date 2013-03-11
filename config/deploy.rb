@@ -29,6 +29,10 @@ set :use_sudo, false
 # if you want to clean up old releases on each deploy uncomment this:
 after "deploy:restart", "deploy:cleanup"
 
+after 'deploy:update_code' do
+  run "cd #{release_path}; RAILS_ENV=production rake assets:precompile"
+end
+
 # This causes SSH connections to your git server to use the keys
 # on your local machine instead of having to store them on the server
 #ssh_options[:forward_agent] = true
