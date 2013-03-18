@@ -16,8 +16,7 @@ set :scm, :git
 # This makes capistrano keep a clone of the repo on the remote server so that it doesn't have to download an entire copy of the app w$
 set :deploy_via, :remote_cache
 
-# set :repository,  "git@github.com:RafeHatfield/tshirtless.git"
-set :repository,  "git@bitbucket.org:Rafe/tshirtless.me.git"
+set :repository,  "git@github.com:RafeHatfield/tshirtless.git"
 set :branch, 'master'
 
 set :git_enable_submodules, true
