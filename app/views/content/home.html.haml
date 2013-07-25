@@ -36,7 +36,7 @@
             .browser-bar
             %div{:style => "background: black; height: 250px; overflow: hidden"}
               %a{:href => "http://www.epicembrace.com"}
-                = image_tag "tshirts/epicembrace.jpg", :style => "width: 321px;"
+                = image_tag "tshirts/epicembrace.png", :style => "width: 321px;"
             .wii-desc
               %h4 $11 Epic Embrace
               %hr/
@@ -115,10 +115,10 @@
           .wii
             .browser-bar
             %div{:style => "background: black; height: 250px; overflow: hidden"}
-              %a{:href => "https://www.teeraiders.com"}
-                = image_tag "tshirts/teeraiders.png", :style => "width: 321px;"
+              %a{:href => "http://teebusters.com"}
+                = image_tag "tshirts/teebusters.png", :style => "width: 321px;"
             .wii-desc
-              %h4 $8 Teeraiders
+              %h4 €8.99 Teebusters
               %hr/
               .wii-meta
                 %p.pull-left 
@@ -138,19 +138,19 @@
                 %p.pull-left 
                 %p.pull-right 
                   = Time.now.strftime( '%B %d, %Y' )
-        .span4
-          .wii
-            .browser-bar
-            %div{:style => "background: black; height: 250px; overflow: hidden"}
-              %a{:href => "http://teebusters.com"}
-                = image_tag "tshirts/teebusters.png", :style => "width: 321px;"
-            .wii-desc
-              %h4 €8.99 Teebusters
-              %hr/
-              .wii-meta
-                %p.pull-left 
-                %p.pull-right 
-                  = Time.now.strftime( '%B %d, %Y' )
+        / .span4
+        /   .wii
+        /     .browser-bar
+        /     %div{:style => "background: black; height: 250px; overflow: hidden"}
+        /       %a{:href => "https://www.teeraiders.com"}
+        /         = image_tag "tshirts/teeraiders.png", :style => "width: 321px;"
+        /     .wii-desc
+        /       %h4 $8 Teeraiders
+        /       %hr/
+        /       .wii-meta
+        /         %p.pull-left 
+        /         %p.pull-right 
+        /           = Time.now.strftime( '%B %d, %Y' )
         .span4
           .wii
             .browser-bar
